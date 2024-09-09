@@ -70,7 +70,7 @@ void callback(char* topic, byte* message, unsigned int length) {
     }
     // Publish confirmation for pat
     client.publish(confirm_topic, "pat from Deepanshu received");
-    Serial.println("pat from Ansh received - confirmation sent");
+    Serial.println("pat from Deepanshu received - confirmation sent");
   }
 }
 
